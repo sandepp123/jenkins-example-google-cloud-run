@@ -3,7 +3,7 @@ pipeline {
   environment {
     CLOUDSDK_CORE_PROJECT='insights-api-localdev'
     CLIENT_EMAIL='jenkins@insights-api-localdev.iam.gserviceaccount.com'
-    GCLOUD_CREDS=credentials('gcloud-creds')
+    GCLOUD_CREDS=credentials('gcloud-cred')
   }
   stages {
     stage('Verify version') {
