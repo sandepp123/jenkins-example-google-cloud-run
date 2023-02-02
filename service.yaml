@@ -6,7 +6,7 @@ spec:
   template:
     spec:
       containers:
-        - image: us-docker.pkg.dev/cloudrun/container/hello
+        - image: gcr.io/fabled-gist-342518/ors-model
           ports:
             - name: http1
-              containerPort: 80
+              containerPort: 8000
